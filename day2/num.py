@@ -7,10 +7,10 @@ for i in range(0,len(num)):
         s=""
         for i in num:
             s+=i
-        l.append(int(s))
+        l.append(s)
 l=sorted(l)
-if(int(n)!=l[-1]):
-    print(l[l.index(int(n))+1])
+if(n!=l[-1]):
+    print(l[l.index(n)+1])
 else:
     print("not possible")
 
