@@ -1,7 +1,7 @@
 import pymysql
 def connect_db():
     try:
-        connection = pymysql.Connect(host='localhost',port=3306,user='root',password='root',database='shashi_db',charset='utf8')
+        connection = pymysql.Connect(host='localhost',port=3306,user='root',password='root123',database='shashi_db',charset='utf8')
         print("DB connected")
         return connection   
     except:
