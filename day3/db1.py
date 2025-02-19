@@ -3,9 +3,9 @@ def connect_db():
     try:
         connection = pymysql.Connect(host='localhost',port=3306,user='root',password='root',database='shashi_db',charset='utf8')
         print("DB connected")
+        return connection   
     except:
         print("DB connected failed")
-    return connection
 
 def disconnect_db(connection):
     try:
@@ -15,4 +15,5 @@ def disconnect_db(connection):
         print("Error in disconnection")
 
 c=connect_db()
-disconnect_db(c)
+if c:
+    disconnect_db(c)
