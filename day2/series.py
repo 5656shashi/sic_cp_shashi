@@ -13,7 +13,7 @@ def fibo_series(n):
     else:
         i=0
         sum=0
-        while i<n:
+        while i<n-2:
             i+=1
             sum=a+b
             a=b
@@ -26,12 +26,13 @@ def prime_Series(n):
         res=if_prime(j)
         if res!=0:
             i+=1
+        j+=1
     return res
 term=int(input("enter the term of the series: "))
 if term %2==0:
-    prime_Series(term/2)
+    print(prime_Series(term/2))
 else:
-    fibo_series((term//2)+1)
+    print(fibo_series((term//2)+1))
 
         
 
