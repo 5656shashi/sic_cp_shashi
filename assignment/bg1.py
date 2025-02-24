@@ -12,6 +12,7 @@ for i in range(t):
             pass
         else:
             res = False
+            break
     if not res:
         for i in range(0,n*2,2):
             if order[i]in girls and order[i+1]in boys:
