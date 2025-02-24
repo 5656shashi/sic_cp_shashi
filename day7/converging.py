@@ -25,7 +25,7 @@ class Linked_list:
         while temp1 is not None:
             temp2=ob2.ll1
             while temp2 is not None:
-                if temp1 is ob2.ll1:
+                if temp1 is temp2:
                     print("\nConverging at",temp1.data)
                     return
                 temp2=temp2.next
