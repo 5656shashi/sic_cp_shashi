@@ -2,20 +2,26 @@
 |   TOPIC-Data analytics for traffic in bangalore   |
 -----------------------------------------------------
 (1)
-> The csv file Banglore_traffic.csv id taken from Kaggle website
-> The obtained csv file had may duplicates values and repeated area names 
-> By using excle Iremoved all duplicates and got a data set with unique values 
+> The csv file Banglore_traffic.csv is taken from Kaggle website
+> The obtained csv file had many duplicates values and repeated area names 
+> By using excle I removed all duplicates and got a data set with unique area names
 > The csv file is attached in hackthon folder along with the code
 
 (2)
-> The code has been written to generate 3 graphs 
-> First graph shows the 5 places in bangalore where traffic volume is very high
+>The code has been written to generate 3 graphs 
+>First graph shows the 5 places in bangalore where traffic volume is very high
+    >Bar graph is the best way to visualize the individual data
 > Second graph shows the variation in Congestion with increas in traffic volume
+    > Line graph is suitable to show variation of one patrameter with respect to change in other
     > We can conclude that the congestion increases with increase in traffic volume from the graph
 > Third graph shows the amount of public transport based on Pedestrian and cycle users
+    > Line graph is suitable to show variation of one patrameter with respect to change in other
     > We can conclude that more the Pedestrians more is the public transport which helps us reduce the useage of cars and bikes foe individual travel
 
 (3)
 > used pandas for loading the csv file data
 > used seaborn to plot the graphs
 > used matplotlib to add title, label x and y axis and display the graph
+
+
+> The code is in traffic.py file in hackthon folder
